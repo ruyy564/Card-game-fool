@@ -213,111 +213,111 @@ button.Take, button.Stop, button.Pass {
 }
 
 .Clubs_6 {
-	background-image: url("../deck/Club/c6.png");
+	background-image: url("../deck/club/c6.png");
 }
 
 .Clubs_7 {
-	background-image: url("../deck/Club/c7.png");
+	background-image: url("../deck/club/c7.png");
 }
 
 .Clubs_8 {
-	background-image: url("../deck/Club/c8.png");
+	background-image: url("../deck/club/c8.png");
 }
 
 .Clubs_9 {
-	background-image: url("../deck/Club/c9.png");
+	background-image: url("../deck/club/c9.png");
 }
 
 .Clubs_10 {
-	background-image: url("../deck/Club/c10.png");
+	background-image: url("../deck/club/c10.png");
 }
 
 .Clubs_Jack {
-	background-image: url("../deck/Club/c11.png");
+	background-image: url("../deck/club/c11.png");
 }
 
 .Clubs_Queen {
-	background-image: url("../deck/Club/c12.png");
+	background-image: url("../deck/club/c12.png");
 }
 
 .Clubs_King {
-	background-image: url("../deck/Club/c13.png");
+	background-image: url("../deck/club/c13.png");
 }
 
 .Clubs_Ace {
-	background-image: url("../deck/Club/c1.png");
+	background-image: url("../deck/club/c1.png");
 }
 
 .Spades_6 {
-	background-image: url("../deck/Spade/s6.png");
+	background-image: url("../deck/spade/s6.png");
 }
 
 .Spades_7 {
-	background-image: url("../deck/Spade/s7.png");
+	background-image: url("../deck/spade/s7.png");
 }
 
 .Spades_8 {
-	background-image: url("../deck/Spade/s8.png");
+	background-image: url("../deck/spade/s8.png");
 }
 
 .Spades_9 {
-	background-image: url("../deck/Spade/s9.png");
+	background-image: url("../deck/spade/s9.png");
 }
 
 .Spades_10 {
-	background-image: url("../deck/Spade/s10.png");
+	background-image: url("../deck/spade/s10.png");
 }
 
 .Spades_Jack {
-	background-image: url("../deck/Spade/s11.png");
+	background-image: url("../deck/spade/s11.png");
 }
 
 .Spades_Queen {
-	background-image: url("../deck/Spade/s12.png");
+	background-image: url("../deck/spade/s12.png");
 }
 
 .Spades_King {
-	background-image: url("../deck/Spade/s13.png");
+	background-image: url("../deck/spade/s13.png");
 }
 
 .Spades_Ace {
-	background-image: url("../deck/Spade/s1.png");
+	background-image: url("../deck/spade/s1.png");
 }
 
 .Diamonds_6 {
-	background-image: url("../deck/Diamond/d6.png");
+	background-image: url("../deck/diamond/d6.png");
 }
 
 .Diamonds_7 {
-	background-image: url("../deck/Diamond/d7.png");
+	background-image: url("../deck/diamond/d7.png");
 }
 
 .Diamonds_8 {
-	background-image: url("../deck/Diamond/d8.png");
+	background-image: url("../deck/diamond/d8.png");
 }
 
 .Diamonds_9 {
-	background-image: url("../deck/Diamond/d9.png");
+	background-image: url("../deck/diamond/d9.png");
 }
 
 .Diamonds_10 {
-	background-image: url("../deck/Diamond/d10.png");
+	background-image: url("../deck/diamond/d10.png");
 }
 
 .Diamonds_Jack {
-	background-image: url("../deck/Diamond/d11.png");
+	background-image: url("../deck/diamond/d11.png");
 }
 
 .Diamonds_Queen {
-	background-image: url("../deck/Diamond/d12.png");
+	background-image: url("../deck/diamond/d12.png");
 }
 
 .Diamonds_King {
-	background-image: url("../deck/Diamond/d13.png");
+	background-image: url("../deck/diamond/d13.png");
 }
 
 .Diamonds_Ace {
-	background-image: url("../deck/Diamond/d1.png");
+	background-image: url("../deck/diamond/d1.png");
 }
 
 @media screen and (max-width: 1300px) {
