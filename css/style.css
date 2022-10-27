@@ -1,30 +1,33 @@
-﻿*{
+﻿* {
 	margin: 0;
 	padding: 0;
 	font-size: 25pt;
 	font-family: Mistral;
 	height: 100%;
 	width: 100%;
-	background:#243d63;
+	background: #243d63;
 }
-div{
+
+div {
 	position: absolute;
 	display: inline-block;
 }
 
-a{
-	text-decoration:none;
+a {
+	text-decoration: none;
 }
-.info{	
+
+.info {
 	display: flex;
-    	justify-content: center;
+	justify-content: center;
 	align-items: center;
-	width:100%;
-	height:100%;
+	width: 100%;
+	height: 100%;
 }
-p{
+
+p {
 	display: flex;
-    	justify-content: center;
+	justify-content: center;
 	align-items: center;
 	width: 70%;
 	height: 100%;
@@ -32,73 +35,85 @@ p{
 	text-align: center;
 	font-size: 30pt;
 }
-#Card{
-	width:100px;
-	height:160px;
+
+#Card {
+	width: 100px;
+	height: 160px;
 	padding: 0;
 	border-radius: 16px;
-  	background-size: 100% 100%;
+	background-size: 100% 100%;
 	border: 1px solid #000000;
 }
-.Player #Card:hover{
-	top:-40px;
+
+.Player #Card:hover {
+	top: -40px;
 }
 
-.CardDeck{
+.CardDeck {
 	top: 40%;
-	width:100px;
-	height:160px;
+	width: 100px;
+	height: 160px;
 	background-position: 50% 50%;
-  	background-size: 50% 50%;
-  	background-repeat: no-repeat;  
+	background-size: 50% 50%;
+	background-repeat: no-repeat;
 }
-.Player,.Computer{
+
+.Player, .Computer {
 	display: flex;
 	flex-wrap: nowrap;
 	left: 20%;
 	width: 60%;
 	height: 20%;
 }
-.Player{
-	bottom:14%;
+
+.Player {
+	bottom: 14%;
 }
-.Computer{
+
+.Computer {
 	top: 5%;
 }
-.Table{
+
+.Table {
 	left: 18%;
 	top: 30%;
 	width: 74%;
 	height: 31%
 }
-.Attack{
+
+.Attack {
 	width: 100%;
 	height: 50%;
 }
-.Defend{
+
+.Defend {
 	top: 5%;
 	width: 100%;
 	height: 50%;
 }
-.ToMenu{
+
+.ToMenu {
 	position: absolute;
 	right: 5%;
 	bottom: 5%;
 }
-button{	
+
+button {
 	width: 14%;
 	height: 9%;
 	background: #fff;
 	border-radius: 12px;
 	border: 3px solid #a90101;
 }
-button:hover,a:hover,a.ToMenu:hover {
-    background-color: #a52727; 
-    color: white;
+
+button:hover, a:hover, a.ToMenu:hover {
+	background-color: #a52727;
+	color: white;
 }
-.Start,.About,.Author,a.ToMenu{
+
+.Start, .About, .Author, a.ToMenu {
 	display: flex;
-    justify-content: center;
+	justify-content: center;
 	align-items: center;
 	position: absolute;
 	background: #fff;
@@ -108,169 +123,212 @@ button:hover,a:hover,a.ToMenu:hover {
 	width: 14%;
 	height: 9%;
 }
-.Start,.About,.Author{
+
+.Start, .About, .Author {
 	left: 43%;
 }
-.Take,.Stop,.Pass{
+
+.Take, .Stop, .Pass {
 	position: absolute;
 	left: 43%;
 }
-.Start{
+
+.Start {
 	top: 25%;
 }
-.About{
+
+.About {
 	top: 40%;
 }
-.Author{
+
+.Author {
 	top: 55%;
 }
-button.Take,button.Stop,button.Pass{
+
+button.Take, button.Stop, button.Pass {
 	bottom: 5%;
 }
-.Back{
+
+.Back {
 	background-image: url("../deck/back.png");
-  	background-size: 100% 100%;
+	background-size: 100% 100%;
 }
-.Turn,.MSG{
+
+.Turn, .MSG {
 	display: flex;
-    	justify-content: center;
+	justify-content: center;
 	align-items: center;
 	height: 4%;
 	width: 25%;
 	color: white;
 	background: #4c0e30;
-	left:37.5%;
-	padding:0;
-	margin:0;
+	left: 37.5%;
+	padding: 0;
+	margin: 0;
 }
-.Turn{
+
+.Turn {
 	bottom: 6px;
 }
-.MSG{
+
+.MSG {
 	top: 25%;
 	border-radius: 30px;
 }
 
-.Hearts_6{
+.Hearts_6 {
 	background-image: url("../deck/heart/h6.png");
 }
-.Hearts_7{
+
+.Hearts_7 {
 	background-image: url("../deck/heart/h7.png");
 }
-.Hearts_8{
+
+.Hearts_8 {
 	background-image: url("../deck/heart/h8.png");
 }
-.Hearts_9{
+
+.Hearts_9 {
 	background-image: url("../deck/heart/h9.png");
 }
-.Hearts_10{
+
+.Hearts_10 {
 	background-image: url("../deck/heart/h10.png");
 }
-.Hearts_Jack{
+
+.Hearts_Jack {
 	background-image: url("../deck/heart/h11.png");
 }
-.Hearts_Queen{
+
+.Hearts_Queen {
 	background-image: url("../deck/heart/h12.png");
 }
-.Hearts_King{
+
+.Hearts_King {
 	background-image: url("../deck/heart/h13.png");
 }
-.Hearts_Ace{
+
+.Hearts_Ace {
 	background-image: url("../deck/heart/h1.png");
 }
 
-.Clubs_6{
+.Clubs_6 {
 	background-image: url("../deck/Club/c6.png");
 }
-.Clubs_7{
+
+.Clubs_7 {
 	background-image: url("../deck/Club/c7.png");
 }
-.Clubs_8{
+
+.Clubs_8 {
 	background-image: url("../deck/Club/c8.png");
 }
-.Clubs_9{
+
+.Clubs_9 {
 	background-image: url("../deck/Club/c9.png");
 }
-.Clubs_10{
+
+.Clubs_10 {
 	background-image: url("../deck/Club/c10.png");
 }
-.Clubs_Jack{
+
+.Clubs_Jack {
 	background-image: url("../deck/Club/c11.png");
 }
-.Clubs_Queen{
+
+.Clubs_Queen {
 	background-image: url("../deck/Club/c12.png");
 }
-.Clubs_King{
+
+.Clubs_King {
 	background-image: url("../deck/Club/c13.png");
 }
-.Clubs_Ace{
+
+.Clubs_Ace {
 	background-image: url("../deck/Club/c1.png");
 }
 
-.Spades_6{
+.Spades_6 {
 	background-image: url("../deck/Spade/s6.png");
 }
-.Spades_7{
+
+.Spades_7 {
 	background-image: url("../deck/Spade/s7.png");
 }
-.Spades_8{
+
+.Spades_8 {
 	background-image: url("../deck/Spade/s8.png");
 }
-.Spades_9{
+
+.Spades_9 {
 	background-image: url("../deck/Spade/s9.png");
 }
-.Spades_10{
+
+.Spades_10 {
 	background-image: url("../deck/Spade/s10.png");
 }
-.Spades_Jack{
+
+.Spades_Jack {
 	background-image: url("../deck/Spade/s11.png");
 }
-.Spades_Queen{
+
+.Spades_Queen {
 	background-image: url("../deck/Spade/s12.png");
 }
-.Spades_King{
+
+.Spades_King {
 	background-image: url("../deck/Spade/s13.png");
 }
-.Spades_Ace{
+
+.Spades_Ace {
 	background-image: url("../deck/Spade/s1.png");
 }
 
-.Diamonds_6{
+.Diamonds_6 {
 	background-image: url("../deck/Diamond/d6.png");
 }
-.Diamonds_7{
+
+.Diamonds_7 {
 	background-image: url("../deck/Diamond/d7.png");
 }
-.Diamonds_8{
+
+.Diamonds_8 {
 	background-image: url("../deck/Diamond/d8.png");
 }
-.Diamonds_9{
+
+.Diamonds_9 {
 	background-image: url("../deck/Diamond/d9.png");
 }
-.Diamonds_10{
+
+.Diamonds_10 {
 	background-image: url("../deck/Diamond/d10.png");
 }
-.Diamonds_Jack{
+
+.Diamonds_Jack {
 	background-image: url("../deck/Diamond/d11.png");
 }
-.Diamonds_Queen{
+
+.Diamonds_Queen {
 	background-image: url("../deck/Diamond/d12.png");
 }
-.Diamonds_King{
+
+.Diamonds_King {
 	background-image: url("../deck/Diamond/d13.png");
 }
-.Diamonds_Ace{
+
+.Diamonds_Ace {
 	background-image: url("../deck/Diamond/d1.png");
 }
+
 @media screen and (max-width: 1300px) {
-.Turn,.MSG{
-	display: flex;
-    	justify-content: center;
-	align-items: center;
-	height: 4%;
-	width: 36%;
-	color: white;
-	background: #4c0e30;
-	left:32%;
-}
+	.Turn, .MSG {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 4%;
+		width: 36%;
+		color: white;
+		background: #4c0e30;
+		left: 32%;
+	}
 }
