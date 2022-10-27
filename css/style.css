@@ -37,8 +37,8 @@ p {
 }
 
 #Card {
-	width: 100px;
-	height: 160px;
+	width: 70px;
+	height: 100px;
 	padding: 0;
 	border-radius: 16px;
 	background-size: 100% 100%;
@@ -51,8 +51,8 @@ p {
 
 .CardDeck {
 	top: 40%;
-	width: 100px;
-	height: 160px;
+	width: 70px;
+	height: 100px;
 	background-position: 50% 50%;
 	background-size: 50% 50%;
 	background-repeat: no-repeat;
@@ -103,23 +103,23 @@ button {
 	height: 9%;
 	background: #fff;
 	border-radius: 12px;
-	border: 3px solid #a90101;
+	border: none;
+	cursor: pointer;
 }
 
-button:hover, a:hover, a.ToMenu:hover {
+button:hover, a:hover, .ToMenu:hover {
 	background-color: #a52727;
 	color: white;
 }
 
-.Start, .About, .Author, a.ToMenu {
+.Start, .About, .Author, .ToMenu, .Take, .Stop, .Pass {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	position: absolute;
 	background: #fff;
-	color: black;
+	color: #243d63;
 	border-radius: 12px;
-	border: 3px solid #a90101;
 	width: 14%;
 	height: 9%;
 }
@@ -161,14 +161,15 @@ button.Take, button.Stop, button.Pass {
 	height: 4%;
 	width: 25%;
 	color: white;
-	background: #4c0e30;
 	left: 37.5%;
 	padding: 0;
 	margin: 0;
 }
 
 .Turn {
-	bottom: 6px;
+	top: 70%;
+	left: 0;
+	width: 15%;
 }
 
 .MSG {
@@ -320,15 +321,4 @@ button.Take, button.Stop, button.Pass {
 	background-image: url("../deck/diamond/d1.png");
 }
 
-@media screen and (max-width: 1300px) {
-	.Turn, .MSG {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		height: 4%;
-		width: 36%;
-		color: white;
-		background: #4c0e30;
-		left: 32%;
-	}
-}
+@media screen and (max-width: 1300px) {}
