@@ -378,3 +378,20 @@ button.Take, button.Stop, button.Pass {
 		height: 60px;
 	}
 }
+
+@media screen and (max-height: 570px) {
+	.Game, body, .counter {
+		height: 570px;
+		overflow: scroll;
+
+	}
+}
+
+@media screen and (max-width: 300px) {
+
+	.Game, body, .counter {
+		width: 300px;
+		overflow: scroll;
+
+	}
+}
