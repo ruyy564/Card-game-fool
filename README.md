@@ -12,9 +12,4 @@ You can play in card game fool: https://ruyy564.github.io/Card-game-fool/
 ### Game proccesse
 ![Game proccesse desktop version](https://user-images.githubusercontent.com/87094243/198578736-4ea306da-fb62-4951-8585-86a2b1e842a3.png)
 ### Mobile version
-### Splash screen
-![Splash screen mobile version](https://user-images.githubusercontent.com/87094243/198578780-a2c16add-5657-4bff-a455-96f554a62fa4.png)
-### Menu game
-![Menu mobile version](https://user-images.githubusercontent.com/87094243/198578870-fd66bc20-cfa2-4f5c-beda-3411aef4db03.png)
-### Game proccesse
-![Game proccesse mobile version](https://user-images.githubusercontent.com/87094243/198578922-dbbaf3e2-3f62-49c0-a48d-73963fe3af3f.png)
+![Splash screen mobile version](https://user-images.githubusercontent.com/87094243/198578780-a2c16add-5657-4bff-a455-96f554a62fa4.png)(https://user-images.githubusercontent.com/87094243/198578870-fd66bc20-cfa2-4f5c-beda-3411aef4db03.png)(https://user-images.githubusercontent.com/87094243/198578922-dbbaf3e2-3f62-49c0-a48d-73963fe3af3f.png)
