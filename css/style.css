@@ -382,7 +382,7 @@ button.Take, button.Stop, button.Pass {
 @media screen and (max-height: 570px) {
 	.Game, body, .counter {
 		height: 570px;
-		overflow: scroll;
+		overflow-y: scroll;
 
 	}
 }
@@ -391,7 +391,7 @@ button.Take, button.Stop, button.Pass {
 
 	.Game, body, .counter {
 		width: 300px;
-		overflow: scroll;
+		overflow-x: scroll;
 
 	}
 }
