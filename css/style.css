@@ -1,8 +1,10 @@
-﻿* {
+﻿@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+
+* {
 	margin: 0;
 	padding: 0;
-	font-size: 25pt;
-	font-family: Mistral;
+	font-size: 25px;
+	font-family: 'Inter', sans-serif;
 	height: 100%;
 	width: 100%;
 	background: #243d63;
@@ -33,27 +35,27 @@ p {
 	height: 100%;
 	color: white;
 	text-align: center;
-	font-size: 30pt;
 }
 
 #Card {
 	width: 70px;
 	height: 100px;
 	padding: 0;
-	border-radius: 16px;
+	border-radius: 15px;
 	background-size: 100% 100%;
 	border: 1px solid #000000;
 }
 
 .Player #Card:hover {
-	top: -40px;
+	top: -10px;
+	cursor: pointer;
 }
 
 .CardDeck {
 	top: 40%;
-	width: 70px;
-	height: 100px;
-	background-position: 50% 50%;
+	width: 100px;
+	height: 120px;
+	background-position: 38% 50%;
 	background-size: 50% 50%;
 	background-repeat: no-repeat;
 }
@@ -98,34 +100,28 @@ p {
 	bottom: 5%;
 }
 
-button {
-	width: 14%;
-	height: 9%;
-	background: #fff;
-	border-radius: 12px;
-	border: none;
-	cursor: pointer;
-}
-
 button:hover, a:hover, .ToMenu:hover {
 	background-color: #a52727;
 	color: white;
 }
 
-.Start, .About, .Author, .ToMenu, .Take, .Stop, .Pass {
+button, .Start, .About, .Author, .ToMenu, .Take, .Stop, .Pass {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	position: absolute;
 	background: #fff;
 	color: #243d63;
+	width: 200px;
+	height: 50px;
 	border-radius: 12px;
-	width: 14%;
-	height: 9%;
+	border: none;
+	cursor: pointer;
+	font-size: 20px;
 }
 
 .Start, .About, .Author {
-	left: 43%;
+	left: calc(50% - 100px);
 }
 
 .Take, .Stop, .Pass {
@@ -159,18 +155,12 @@ button.Take, button.Stop, button.Pass {
 	justify-content: center;
 	align-items: center;
 	height: 4%;
-	width: 25%;
+	width: 100%;
 	color: white;
-	left: 37.5%;
 	padding: 0;
 	margin: 0;
 }
 
-.Turn {
-	top: 70%;
-	left: 0;
-	width: 15%;
-}
 
 .MSG {
 	top: 25%;
@@ -321,4 +311,70 @@ button.Take, button.Stop, button.Pass {
 	background-image: url("../deck/diamond/d1.png");
 }
 
-@media screen and (max-width: 1300px) {}
+@media screen and (max-width: 800px) {
+	* {
+		font-size: 20px;
+	}
+
+	.Take, .Stop, .Pass {
+		position: absolute;
+		left: 5%;
+	}
+
+	#Card {
+		width: 50px;
+		height: 75px;
+	}
+
+	.CardDeck {
+		width: 35px;
+		height: 98px;
+	}
+}
+
+@media screen and (max-width: 570px) {
+
+
+	* {
+		font-size: 15px;
+	}
+
+	.ToMenu menu {
+		left: calc(50% - 100px)
+	}
+
+	.ToMenu, .Take, .Stop, .Pass {
+
+		width: 100px;
+		height: 50px;
+
+	}
+
+}
+
+@media screen and (max-width: 340px) {
+	* {
+		font-size: 10px;
+	}
+
+	button, .Start, .About, .Author, .ToMenu menu {
+
+		width: 150px;
+		height: 50px;
+
+	}
+
+	.Start, .About, .Author, .ToMenu menu {
+		left: calc(50% - 75px);
+	}
+
+	#Card {
+		width: 30px;
+		height: 50px;
+	}
+
+	.CardDeck {
+		width: 22px;
+		height: 60px;
+	}
+}

@@ -70,7 +70,7 @@ class cView {
     Field.appendChild(Ref); //Добавлене div элемента в div Player(Computer/player).
 
     Ref.style.position = 'relative';
-    Ref.style.margin = '-20px';
+    Ref.style.margin = '0 -20px 0 0';
 
     if (Field.className == 'Player') {
       //Если карта перемещается в руку Player,то показать лицевую сторону карты.
@@ -127,7 +127,7 @@ class cView {
     if (Check) {
       document.location.href = 'menu.html';
     } else {
-      if (confirm('Выйти в главное меню?')) {
+      if (confirm('Exit to menu?')) {
         document.location.href = 'menu.html';
       }
     }
@@ -182,7 +182,7 @@ class cView {
       //Возвращение в исходное состояние.
       Ref = divTableAttack.children[i];
       Ref.style.transform = 'rotate(0deg)';
-      Ref.style.margin = '-20px';
+      Ref.style.margin = '0 -20px 0 0';
       divTableAttack.children[i].remove(); //Удаление карты со стола.
       Player.appendChild(Ref); //Добавление карты в руку.
       if (Player.className == 'Computer') {
@@ -197,7 +197,7 @@ class cView {
       //Возвращение в исходное состояние.
       Ref = divTableDefend.children[i];
       Ref.style.transform = 'rotate(0deg)';
-      Ref.style.margin = '-20px';
+      Ref.style.margin = '0 -20px 0 0';
       divTableDefend.children[i].remove(); //Удаление карты со стола.
       Player.appendChild(Ref); //Добавление карты в руку.
       if (Player.className == 'Computer') {
