@@ -5,8 +5,11 @@ You can play in card game fool: https://ruyy564.github.io/Card-game-fool/
 "Card game 'Fool' for two players. One of the players is a computer. Each player is dealt 6 cards, the next card is revealed and its suit sets the trump card for this game, and the rest of the deck is placed on top so that the trump card is visible to everyone. Ace cannot be a trump card. The ace of trump does not fight back in the game. The object of the game is to get rid of all cards. The last player who does not get rid of the cards remains in the "fools". It is forbidden to pick up cards that have been recaptured. The broken cards go to the discard."
 ## Screen game
 ### Splash screen
-![Splash screen](https://user-images.githubusercontent.com/87094243/187839675-f9b3a911-c725-40b4-83bf-8d77888d7ddf.png)
+![Splash screen desktop version](https://user-images.githubusercontent.com/87094243/198578664-f5040aa7-a3c2-422f-b4e3-8e87885deee1.png)
+![Splash screen mobile version](https://user-images.githubusercontent.com/87094243/198578780-a2c16add-5657-4bff-a455-96f554a62fa4.png)
 ### Menu game
-![Menu](https://user-images.githubusercontent.com/87094243/187839881-5f6c7a03-8988-4e35-9bb4-b14d4e27bdcb.png)
+![Menu desktop version](https://user-images.githubusercontent.com/87094243/198578715-680cf089-9c73-4ac8-addc-885186a255f4.png)
+![Menu mobile version](https://user-images.githubusercontent.com/87094243/198578870-fd66bc20-cfa2-4f5c-beda-3411aef4db03.png)
 ### Game proccesse
-![Game proccesse](https://user-images.githubusercontent.com/87094243/187840040-c68dbfed-8f48-4670-b69d-4711d9f39ae9.png)
+![Game proccesse desktop version](https://user-images.githubusercontent.com/87094243/198578736-4ea306da-fb62-4951-8585-86a2b1e842a3.png)
+![Game proccesse mobile version](https://user-images.githubusercontent.com/87094243/198578922-dbbaf3e2-3f62-49c0-a48d-73963fe3af3f.png)
