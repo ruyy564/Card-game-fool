@@ -100,9 +100,8 @@ p {
 	bottom: 5%;
 }
 
-button:hover, a:hover, .ToMenu:hover {
-	background-color: #a52727;
-	color: white;
+button:active, a:active, .ToMenu:active {
+	opacity: 0.4;
 }
 
 button, .Start, .About, .Author, .ToMenu, .Take, .Stop, .Pass {
@@ -379,9 +378,9 @@ button.Take, button.Stop, button.Pass {
 	}
 }
 
-@media screen and (max-height: 570px) {
+@media screen and (max-height: 650px) {
 	.Game, body, .counter {
-		height: 570px;
+		height: 650px;
 		overflow-y: scroll;
 
 	}
