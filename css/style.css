@@ -394,3 +394,12 @@ button.Take, button.Stop, button.Pass {
 
 	}
 }
+
+input,
+textarea,
+button,
+select,
+div, span,
+a {
+	-webkit-tap-highlight-color: transparent;
+}
